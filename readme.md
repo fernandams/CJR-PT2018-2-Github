@@ -1,0 +1,1 @@
+# Esse diretório será utilizado para guardar dados sobre o Git e o Github
