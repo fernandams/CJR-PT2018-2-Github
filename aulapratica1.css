@@ -1,0 +1,54 @@
+.cabecalho{
+	background-color: #DEE2E6;
+	color: #6B6C6D;
+}
+
+.corVerPedido{
+	color: #007bff;
+}
+
+.corEditar{
+	color: #FDDF4C;
+	border-spacing: 60px;
+}
+
+.corExcluir{
+	color: #E82431;
+}
+
+.link{
+	text-decoration: none;
+
+}
+.statusPendente{
+	background-color: #007bff;
+	border-radius: 4px 4px 4px 4px;
+	padding: 1px 25px 1px 25px;
+	color: #DEE2E6;
+}
+.statusEntregue{
+	background-color: #28a745;
+	border-radius: 4px 4px 4px 4px;
+	padding: 1px 25px 1px 25px;
+	color: #DEE2E6;
+}
+.statusCancelado{
+	background-color: #E82431;
+	border-radius: 4px 4px 4px 4px;
+	padding: 1px 25px 1px 25px;
+	color: #DEE2E6;
+}
+
+.celula{
+	padding: 7px 20px 7px 20px;
+	color: #868686;
+}
+.borda{
+	border-collapse: collapse;
+}
+.boxTabela{
+	margin-left: 15%;
+}
+.cabecalho th{
+	text-align: left;
+}
