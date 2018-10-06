@@ -1,4 +1,4 @@
-# Esse diretório será utilizado para guardar exercícios realizados no Processo Trainee da CJR (2018/2)
+# Esse repositório será utilizado para guardar exercícios realizados no Processo Trainee da CJR (2018/2)
 
 - Utilizado para aprender a utilizar o Git e o GitHub 
 - Exercícios das aulas práticas de HTML/CSS
