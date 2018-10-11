@@ -1,0 +1,24 @@
+.container{
+	display: flex;
+	height:100vh;
+}
+
+.boxImg{
+	display: flex;
+	width: 70%;
+	float: left;
+	background-image: url("Imagens/img_login_cad.jpg");
+	background-size: 155%;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.containerForm{
+	display: flex;
+	width: 40%;
+	height: 500px;
+	justify-content: center;
+}
+
+.boxForm{
+	
+}
