@@ -9,21 +9,25 @@
 	<div class="container">
 		<div class="boxImg"> </div>
 		<div class="containerForm"> 
-			<span> <h1> dinnerdash</h1> </span>
+			<div class="boxTitulo"> <h1> dinnerdash</h1></div>
 			<div class="boxForm"> 
 				<form>
-					<label for="">Email</label>
-					<input type="text" name="email">
-		
-					<label for="">Senha</label>
-					<input type="password" name="password">
-
-					<input type="submit" name="login">
-
-					<label for=""> Não possui conta?</label>
-					<input type="submit" name="cadastro">
-			</form>
-
+					<div class="box"> 
+						<label class="label" for="email">Email</label>
+						<input type="text" name="email" id="email">
+					</div>
+					<div class="box">
+						<label class="label" for="password">Senha</label>
+						<input type="password" name="password" id="password">				
+					</div>
+					<div class="box">
+						<input type="submit" name="login" id="login" value="fazer login">					
+					</div>
+					<div class="box">
+						<label class="label" for="cadastro"> Não possui conta?</label>
+						<input type="submit" name="cadastro" id="cadastro" value="fazer meu cadastro">
+					</div>
+				</form>
 			 </div>
 		</div>	
 	</div>
