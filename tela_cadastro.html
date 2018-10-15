@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title> Aula Prática 2 - Login</title>
+	<title> Aula Prática 2 - Cadastro</title>
 	<link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet"> 
 	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -10,25 +10,33 @@
 <body>
 	<div class="container">
 		<div class="boxImg"> </div>
-		<div class="containerForm"> 
+		<div class="containerRegister "> 
 			<div class="boxTitle"> <h1> dinnerdash</h1></div>
 			<div class="boxForm"> 
 				<form>
-					<div class="box"> 
+					<div class="boxC"> 
+						<label class="label" for="name">Nome</label>
+						<input class="input" type="text" name="name" id="name">
+					</div>
+					<div class="boxC"> 
 						<label class="label" for="email">Email</label>
 						<input class="input" type="text" name="email" id="email">
 					</div>
-					<div class="box">
+					<div class="boxC">
 						<label class="label" for="password">Senha</label>
 						<input class="input" type="password" name="password" id="password">				
 					</div>
-					<div class="box">
-						<input class="input login" type="submit" name="login" id="login" value="fazer login">	
+					<div class="boxC">
+						<label class="label" for="confirm">Confirme sua senha</label>
+						<input class="input" type="password" name="confirm-password" id="confirm">				
 					</div>
-					<hr class="line">
+					<div class="boxC">
+						<input class="input login" type="submit" name="cadastro" id="cadastro" value="cadastrar">	
+					</div>
+					<hr class="line reg">
 					<div class="box">
-						<label class="label_reg" for="cadastro"> Não possui conta?</label>
-						<input class="input register" type="submit" name="cadastro" id="cadastro" value="fazer meu cadastro">
+						<label class="label_reg" for="login"> Já possui conta?</label>
+						<input class="input register" type="submit" name="login" id="login" value="fazer login">
 					</div>
 				</form>
 			 </div>

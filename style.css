@@ -18,7 +18,14 @@
 	align-content: center;
 	padding: 5em 5em;
 }
-
+.containerRegister{
+	width: 40vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
+	padding: 10em 5em;	
+}
 .boxTitle{
 }
 
@@ -33,6 +40,11 @@
 	display: flex;
 	flex-direction: column;
 	margin:1em 0 0.5em;
+}
+.boxC{
+	display: flex;
+	flex-direction: column;
+	margin:0.8em 0 0 0;
 }
 .label{
 	padding: 0.5em 0;
@@ -70,6 +82,10 @@
 	margin-top: 2.7em;
 	margin-bottom: 0.5em;
 	border: 1px solid rgba(220,220,220,.6);
+}
+.line.reg{
+	margin-top: 2em;
+	border: 1px solid rgba(220,220,220,.6);	
 }
 .boxTitle h1{
 	color: #505050
