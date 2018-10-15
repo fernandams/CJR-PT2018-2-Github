@@ -4,34 +4,35 @@
 }
 
 .boxImg{
-	width: 60%;
+	width: 60vw;
 	background-image: url("imagens/img_login_cad.jpg");
-	background-size: 155%;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: left center; 
 }
 .containerForm{
-	width: 40%;
+	width: 40vw;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-around;
 	align-content: center;
+	padding: 5em 5em;
 }
 
 .boxTitle{
-	margin: 5.9em 5em 0.8em 5em;
 }
+
 .boxTitle h1{
 	font-family: 'Amaranth', sans-serif;
 	font-weight: normal;
+	font-size: 2.5em;
 } 
 .boxForm{
-	margin: 0 5em 6em 5em;
 }
 .box{
 	display: flex;
 	flex-direction: column;
-	margin:10px 0;
+	margin:1em 0 0.5em;
 }
 .label{
 	padding: 0.5em 0;
@@ -51,13 +52,22 @@
 	background-color: #28a745;
 	color: white;
 }
+.input.login:hover{
+	background-color:#218838; 
+	color: white;
+}
+
 .input.register{
 	border: 1px solid #28a745;
 	background-color: white;
 	color: #28a745;
 }
+.input.register:hover{
+	background-color: #28a745;
+	color: white;
+}
 .line{
-	margin-top: 1.9em;
+	margin-top: 2.7em;
 	margin-bottom: 0.5em;
 	border: 1px solid rgba(220,220,220,.6);
 }
