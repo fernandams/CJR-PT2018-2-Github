@@ -90,3 +90,23 @@
 .boxTitle h1{
 	color: #505050
 }
+
+
+@media (max-width: 425px) {
+	.boxImg{
+		display: none;
+	}
+
+	.containerForm{
+		width: 100vw;
+		justify-content: center;
+		padding: 2em 2em;
+	}
+}
+
+@media (min-width: 426px) and (max-width: 768px){
+	.containerForm{
+		justify-content: center;
+		padding: 2em 2em;
+	}	
+}
