@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title> Aula Prática2 - Login</title>
+	<link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet"> 
 	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -9,23 +10,24 @@
 	<div class="container">
 		<div class="boxImg"> </div>
 		<div class="containerForm"> 
-			<div class="boxTitulo"> <h1> dinnerdash</h1></div>
+			<div class="boxTitle"> <h1> dinnerdash</h1></div>
 			<div class="boxForm"> 
 				<form>
 					<div class="box"> 
 						<label class="label" for="email">Email</label>
-						<input type="text" name="email" id="email">
+						<input class="input" type="text" name="email" id="email">
 					</div>
 					<div class="box">
 						<label class="label" for="password">Senha</label>
-						<input type="password" name="password" id="password">				
+						<input class="input" type="password" name="password" id="password">				
 					</div>
 					<div class="box">
-						<input type="submit" name="login" id="login" value="fazer login">					
+						<input class="input login" type="submit" name="login" id="login" value="fazer login">	
 					</div>
+					<hr class="line">
 					<div class="box">
-						<label class="label" for="cadastro"> Não possui conta?</label>
-						<input type="submit" name="cadastro" id="cadastro" value="fazer meu cadastro">
+						<label class="label_reg" for="cadastro"> Não possui conta?</label>
+						<input class="input register" type="submit" name="cadastro" id="cadastro" value="fazer meu cadastro">
 					</div>
 				</form>
 			 </div>

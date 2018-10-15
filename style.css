@@ -1,48 +1,66 @@
 .container{
 	display: flex;
 	height:100vh;
-	justify-content: space-between;
-	border: 2px dashed black;
 }
 
 .boxImg{
-	margin: 20px;
-	flex-grow: 2;
-	width: 300px;
-	/*background-image: url("imagens/img_login_cad.jpg");
+	width: 60%;
+	background-image: url("imagens/img_login_cad.jpg");
 	background-size: 155%;
 	background-repeat: no-repeat;
-	background-position: left center; */
-	border: 1px solid red;
+	background-position: left center; 
 }
 .containerForm{
-	margin: 20px;
-	width:150px;
-	flex-grow: 1;
+	width: 40%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-content: space-between;
-	border: 1px solid blue;
+	align-content: center;
 }
 
-.boxTitulo{
-	margin: 20px;
-	width: auto;
-	border: 1px solid yellow;
+.boxTitle{
+	margin: 5.9em 5em 0.8em 5em;
 }
-
+.boxTitle h1{
+	font-family: 'Amaranth', sans-serif;
+	font-weight: normal;
+} 
 .boxForm{
-	margin: 20px;
-	border:1px solid green;
+	margin: 0 5em 6em 5em;
 }
 .box{
 	display: flex;
 	flex-direction: column;
-	margin:20px;
-	border: 1px dotted purple;
+	margin:10px 0;
 }
 .label{
-	padding: 10px;
-	border: 1px dashed black;
+	padding: 0.5em 0;
+	color: #868686
+}
+.label_reg{
+	padding: 0.8em 0;
+	color:#505050;
+}
+.input{
+	border-radius: 4px 4px 4px 4px;
+	padding: 0.45em;
+	border:1px solid #ced4da;
+}
+.input.login{
+	border: 1px solid #28a745;
+	background-color: #28a745;
+	color: white;
+}
+.input.register{
+	border: 1px solid #28a745;
+	background-color: white;
+	color: #28a745;
+}
+.line{
+	margin-top: 1.9em;
+	margin-bottom: 0.5em;
+	border: 1px solid rgba(220,220,220,.6);
+}
+.boxTitle h1{
+	color: #505050
 }
