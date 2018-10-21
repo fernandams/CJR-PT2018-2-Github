@@ -1,0 +1,121 @@
+.container{
+	display: flex;
+	height:100vh;
+}
+
+.boxImg{
+	width: 60vw;
+	background-image: url("imagens/img_login_cad.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left center; 
+}
+.containerForm{
+	width: 40vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
+	padding: 5em 5em;
+}
+.containerRegister{
+	width: 40vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
+	padding: 12em 5em;	
+}
+.boxTitle{
+}
+
+.boxTitle h1{
+	font-family: 'Amaranth', sans-serif;
+	font-weight: normal;
+	font-size: 2.5em;
+	color: #505050;
+} 
+.boxForm{
+}
+.box{
+	display: flex;
+	flex-direction: column;
+	margin:1em 0 0.5em;
+}
+.boxRegister{
+	display: flex;
+	flex-direction: column;
+}
+.label{
+	padding: 0.5em 0;
+	color: #868686
+}
+.labelOtherOption{
+	padding: 0.8em 0;
+	color:#505050;
+}
+.input{
+	border-radius: 4px 4px 4px 4px;
+	padding: 0.45em;
+	border:1px solid #ced4da;
+}
+
+.input.primary{
+	border: 1px solid #28a745;
+	background-color: #28a745;
+	color: white;
+}
+.input.primary#cadastro{
+	margin-top: 1em;
+}
+.input.primary:hover{
+	background-color:#218838; 
+	color: white;
+}
+
+.input.secundary{
+	border: 1px solid #28a745;
+	background-color: white;
+	color: #28a745;
+}
+.input.secundary:hover{
+	background-color: #28a745;
+	color: white;
+}
+.line{
+	margin-top: 2.7em;
+	margin-bottom: 0.5em;
+	border: 1px solid rgba(220,220,220,.6);
+}
+.line.reg{
+	margin-top: 2em;
+	border: 1px solid rgba(220,220,220,.6);	
+}
+
+@media (max-width: 425px) {
+	.boxImg{
+		display: none;
+	} 
+	.containerForm{
+		width: 100vw;
+		justify-content: center;
+		padding: 2em 2em;
+	}
+	.containerRegister{
+		width: 100vw;
+		justify-content: center;
+		padding: 2em 2em;
+	}
+}
+
+@media (min-width: 426px) and (max-width: 768px){
+	.containerForm{
+		justify-content: center;
+		padding: 2em 2em;
+	}	
+	.containerRegister{
+		justify-content: center;
+		padding: 2em 2em;
+	}
+}
+
