@@ -119,3 +119,43 @@
 	}
 }
 
+.boxTable{
+
+}
+.headTable{
+	background-color: #DEE2E6;
+	color: #6B6C6D;
+}
+.bodyTable{
+	color: #868686;
+}
+.statusPending{
+	background-color: #007bff;
+	border-radius: 4px 4px 4px 4px;
+	padding: 1px 25px 1px 25px;
+	color: #DEE2E6;
+}
+.statusDelivered{
+	background-color: #28a745;
+	border-radius: 4px 4px 4px 4px;
+	padding: 1px 25px 1px 25px;
+	color: #DEE2E6;
+}
+.statusCanceled{
+	background-color: #E82431;
+	border-radius: 4px 4px 4px 4px;
+	padding: 1px 25px 1px 25px;
+	color: #DEE2E6;
+}
+.blueLink, .blueLink:hover{
+	color: #007bff;
+}
+
+.yellowLink,.yellowLink:hover{
+	color: #FDDF4C;
+}
+
+.redLink, .redLink:hover{
+	color: #E82431;
+}
+
