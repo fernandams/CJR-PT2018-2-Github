@@ -10,21 +10,28 @@
 	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 </head>
 <body>
-	<div>
-		<div class="headerBackoffice">
-		dinerdash 
-		<ul>
-			<li>backoffice</li>
-			<li>perfil</li>
-			<li>sair</li>
-		</ul>
-		<div>
-			<h1>Backoffice</h1>
-			Gerencie pedidos, refeições e mais.
+	<div class="headerBackoffice">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">dinerdash </div>
+				<div class="col-md-3">
+					<ul class="xxx">
+						<li class="zzz"><a href="">backoffice</a></li>
+						<li class="zzz"><a href="">perfil</a></li>
+						<li class="zzz"><a href="">sair</a></li>
+					</ul>					
+				</div>
+			</div>
+			<div class="row">
+				<h1>Backoffice</h1>
+				<span>Gerencie pedidos, refeições e mais.</span>
+			</div>
 		</div>
-
-		<nav  class="navbar navbar-expand-lg navbar-dark bg-dark">
-		  <div class="collapse navbar-collapse" id="navbarText">
+	</div>
+	<nav  class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container">
+	  <div class="collapse navbar-collapse" id="navbarText">
+			
 		    <ul class="navbar-nav mr-auto">
 		      <li class="nav-item active">
 		        <a class="nav-link" href="#">Pedidos<span class="sr-only">(current)</span></a>
@@ -39,12 +46,13 @@
 		        <a class="nav-link" href="#">Categorias de Refeição</a>
 		      </li>
 		    </ul>
-		  </div>
-		</nav>
-
-		</div>
-		<div class="boxTable">
-			<table class="table table-hover">
+		</div>  	
+	  </div>
+	</nav>
+	
+	<main>
+		<div class="container">
+			<table class="table table-sm table-hover">
 				<thead  class="headTable">
 					<tr>
 						<th scope="col"> Pedido de nº</th>
@@ -139,7 +147,35 @@
 					</tr>
 				</tbody>
 			</table>
+			<nav aria-label="...">
+			  <ul class="pagination">
+			    <li class="page-item">
+			    	 <a class="page-link" href="#" aria-label="Previous">
+				        <span aria-hidden="true">&laquo;</span>
+				        <span class="sr-only">Previous</span>
+				     </a>
+				 </li>
+			    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+			    <li class="page-item">
+			      <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+			    </li>
+			    <li class="page-item">
+			 		 <a class="page-link" href="#" aria-label="Next">
+				        <span aria-hidden="true">&raquo;</span>
+				        <span class="sr-only">Next</span>
+				      </a>
+			    </li>
+			  </ul>
+			</nav>
 		</div>
-	</div>
+	</main>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">dinnerdash | todos os direitos reservados</div>
+				<div class="col-md-3">desenvolvido por Fernanda Sousa</div>	
+			</div>			
+		</div>
+	</footer>
 </body>
 </html>

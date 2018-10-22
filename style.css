@@ -1,4 +1,4 @@
-.container{
+.mainContainer{
 	display: flex;
 	height:100vh;
 }
@@ -119,9 +119,6 @@
 	}
 }
 
-.boxTable{
-
-}
 .headTable{
 	background-color: #DEE2E6;
 	color: #6B6C6D;
@@ -132,20 +129,26 @@
 .statusPending{
 	background-color: #007bff;
 	border-radius: 4px 4px 4px 4px;
-	padding: 1px 25px 1px 25px;
+	padding: 0.05em 0 0.05em 0;
 	color: #DEE2E6;
+	text-align: center;
+	width: 90%;
 }
 .statusDelivered{
 	background-color: #28a745;
 	border-radius: 4px 4px 4px 4px;
-	padding: 1px 25px 1px 25px;
+	padding: 0.05em 0 0.05em 0;
 	color: #DEE2E6;
+	text-align: center;
+	width: 90%;
 }
 .statusCanceled{
 	background-color: #E82431;
 	border-radius: 4px 4px 4px 4px;
-	padding: 1px 25px 1px 25px;
+	padding: 0.05em 0 0.05em 0;
 	color: #DEE2E6;
+	text-align: center;
+	width: 90%;
 }
 .blueLink, .blueLink:hover{
 	color: #007bff;
@@ -158,4 +161,19 @@
 .redLink, .redLink:hover{
 	color: #E82431;
 }
-
+.headerBackoffice{
+	width: 100vw;
+	background-image: url("imagens/img_backoffice.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center; 
+}
+main{
+	margin-top: 1em;
+}
+.xxx{
+	list-style-type: none;
+}
+.zzz{
+	display: inline;
+}
