@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Aula Prática 4 </title>
+	<link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<body>
+	<div>
+		<div>
+		dinerdash 
+		<ul>
+			<li>backoffice</li>
+			<li>perfil</li>
+			<li>sair</li>
+		</ul>
+		<div>
+			<h1>Backoffice</h1>
+			Gerencie pedidos, refeições e mais.
+		</div>
+
+		<nav  class="navbar navbar-expand-lg navbar-dark bg-dark">
+		  <div class="collapse navbar-collapse" id="navbarText">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#">Pedidos<span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Usuários</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Refeições</a>
+		      </li>
+		       <li class="nav-item">
+		        <a class="nav-link" href="#">Categorias de Refeição</a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+
+		</div>
+		<div class="boxTabela">
+			<table class="borda">
+				<thead class="cabecalho">
+					<tr>
+						<th class="celulaH"> Pedido de nº</th>
+						<th class="celulaH"> Status</th>
+						<th class="celulaH"> Data</th>
+						<th class="celulaH"> Usuário</th>
+						<th class="celulaH"> Preço total</th>
+						<th class="celulaH"> Detalhes</th>
+						<th colspan="2"></th> 
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="bordaInferior">
+						<td class="celula">103849</td>
+						<td class="celula"> <div class="statusPendente">pendente</div></td>
+						<td class="celula"> 30/11/2017 </td>
+						<td class="celula"> Rafael</td>
+						<td class="celula"> R$ 72,00 </td>
+						<td class="celula"> <a href="" class="corVerPedido link"> ver itens pedidos </a> </td>
+						<td class="celula"> <a href="" class="corEditar link"> editar </a></td>
+						<td class="celula"> <a href="" class="corExcluir link"> excluir </a></td>
+					</tr>
+					<tr class="bordaInferior">
+						<td class="celula">103849</td>
+						<td class="celula"> <div class="statusEntregue"> entregue </div></td>
+						<td class="celula"> 30/11/2017 </td>
+						<td class="celula"> Rafael</td>
+						<td class="celula"> R$ 105,00 </td>
+						<td class="celula"> <a href="" class="corVerPedido link"> ver itens pedidos </a></td>
+						<td class="celula"> <a href="" class="corEditar link"> editar </a></td>
+						<td class="celula"> <a href="" class="corExcluir link"> excluir </a></td>
+					</tr>
+						<tr class="bordaInferior">
+						<td class="celula">102453</td>
+						<td class="celula"> <div class="statusCancelado"> cancelado </div></td>
+						<td class="celula"> 15/11/2017 </td>
+						<td class="celula"> Rafael</td>
+						<td class="celula"> R$ 90,00 </td>
+						<td class="celula"> <a href="" class="corVerPedido link"> ver itens pedidos </a> </td>
+						<td class="celula"> <a href="" class="corEditar link"> editar </a></td>
+						<td class="celula"> <a href="" class="corExcluir link"> excluir </a></td>
+					</tr>
+						<tr class="bordaInferior">
+						<td class="celula">101270</td>
+						<td class="celula"> <div class="statusEntregue"> entregue </div></td>
+						<td class="celula"> 02/11/2017 </td>
+						<td class="celula"> Rafael</td>
+						<td class="celula"> R$ 145,00 </td>
+						<td class="celula"> <a href="" class="corVerPedido link"> ver itens pedidos </a> </td>
+						<td class="celula"> <a href="" class="corEditar link"> editar </a></td>
+						<td class="celula"> <a href="" class="corExcluir link"> excluir </a></td>
+					</tr>
+						<tr class="bordaInferior">
+						<td class="celula">101103</td>
+						<td class="celula"> <div class="statusEntregue"> entregue </div></td>
+						<td class="celula"> 01/11/2017 </td>
+						<td class="celula"> Pedro </td>
+						<td class="celula"> R$ 55,00 </td>
+						<td class="celula"> <a href="" class="corVerPedido link"> ver itens pedidos </a> </td>
+						<td class="celula"> <a href="" class="corEditar link"> editar </a></td>
+						<td class="celula"> <a href="" class="corExcluir link"> excluir </a></td>
+					</tr>
+						<tr class="bordaInferior">
+						<td class="celula">101034</td>
+						<td class="celula">  <div class="statusEntregue"> entregue </div></td>
+						<td class="celula"> 30/10/2017 </td>
+						<td class="celula"> Augusto</td>
+						<td class="celula"> R$ 70,00 </td>
+						<td class="celula"> <a href="" class="corVerPedido link"> ver itens pedidos </a> </td>
+						<td class="celula"> <a href="" class="corEditar link"> editar </a></td>
+						<td class="celula"> <a href="" class="corExcluir link"> excluir </a></td>
+					</tr>
+						<tr class="bordaInferior">
+						<td class="celula">101012</td>
+						<td class="celula">  <div class="statusCancelado"> cancelado </div></td>
+						<td class="celula"> 27/10/2017 </td>
+						<td class="celula"> Pedro</td>
+						<td class="celula"> R$ 90,00 </td>
+						<td class="celula"> <a href="" class="corVerPedido link"> ver itens pedidos </a> </td>
+						<td class="celula"> <a href="" class="corEditar link"> editar </a></td>
+						<td class="celula"> <a href="" class="corExcluir link"> excluir </a></td>
+					</tr>
+						<tr>
+						<td class="celula">101003</td>
+						<td class="celula"> <div class="statusEntregue"> entregue </div></td>
+						<td class="celula"> 23/11/2017 </td>
+						<td class="celula"> Flávio</td>
+						<td class="celula"> R$ 185,00 </td>
+						<td class="celula"> <a href="" class="corVerPedido link"> ver itens pedidos </a> </td>
+						<td class="celula"> <a href="" class="corEditar link"> editar </a></td>
+						<td class="celula"> <a href="" class="corExcluir link"> excluir </a></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</body>
+</html>
